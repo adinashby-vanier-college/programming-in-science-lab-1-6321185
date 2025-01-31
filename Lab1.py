@@ -8,8 +8,8 @@ def hello_world():
 # and then print them back in a formatted message.
 def input_output():
     name = input ("Enter your name: ")
-    age = input ("Enter your age:n ")
-    height = input (Enter your height: )
-    print ("Your name is: " + str(name) + "!")
-    print ("Your age is: " + str(age) + "years old.")
-    print ("Your height is: " + str(height) + "meters.")
+    age = input ("Enter your age: ")
+    height = input ("Enter your height: ")
+    print ("Hello, " + name + "!")
+    print ("You are " + age + " years old.")
+    print ("Your height is " + height + " meters.")
